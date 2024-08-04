@@ -1,0 +1,42 @@
+
+body {
+    height: 100vh;
+}
+
+.palo {
+    margin: auto;
+    height: 20vh;
+    width: 25px; 
+    background-color: black;
+}
+.semaforo-caja {
+    margin: auto;
+    height: 85vh;
+    width: 250px; 
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.luz {
+    margin: auto;
+    height: 170px;
+    width: 170px; 
+    border-radius: 50%;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+
+.brillo {
+    -webkit-box-shadow: 10px 10px 166px -5px rgb(0, 196, 134);
+-moz-box-shadow: 10px 10px 166px -5px rgb(0, 141, 229);
+box-shadow: 10px 10px 166px -5px rgb(0, 224, 224);
+
+}
